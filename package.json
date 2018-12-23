@@ -1,0 +1,16 @@
+{
+  "name": "json-ref-merger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    
+  },
+  "keywords": [],
+  "author": "Damien Golding",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^7.0.1",
+    "traverse": "^0.6.6"
+  }
+}

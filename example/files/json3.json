@@ -1,0 +1,14 @@
+{
+    "description": "json3.json. Nested. No reference",
+    "string": "hello",
+    "number": 1,
+    "object": {
+        "key1": "value1",
+        "key2": "value2"
+    },
+    "array": [
+        1,
+        3,
+        7
+    ]
+}
