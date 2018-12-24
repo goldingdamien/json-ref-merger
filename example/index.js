@@ -13,6 +13,6 @@ function formatReferenceUrl (url) {
 
 async function test () {
   const data = await merger.parseJsonFile('./files/json1.json')
-  await fs.writeFile('./dist/output.json', JSON.stringify(data))
+  await fs.writeFile('./dist/output.json', JSON.stringify(data), {encoding: 'utf-8'})
   console.log('complete')
 }

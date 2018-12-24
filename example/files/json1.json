@@ -13,5 +13,11 @@
     ],
     "reference": {
         "$ref": "./json2.json"
+    },
+    "reference2": {
+        "$ref": "./json4.json#reference#this#data"
+    },
+    "non-json": {
+        "$ref": "./non-json.html"
     }
 }
