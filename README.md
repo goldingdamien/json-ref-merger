@@ -5,8 +5,8 @@ In order to reference another JSON file, add an object with a single key "$ref" 
 
 ## Usage
 
-```
-const JsonRefMerger = require('json-ref-merger)
+```javascript
+const JsonRefMerger = require('json-ref-merger')
 const merger = new JsonRefMerger({
     urlFormatter: (url) => {return url}
 }
